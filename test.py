@@ -1,7 +1,7 @@
 import os
 
 os.system('git init')
-os.system('git remote add origin https://github.com/AnshDivya/himRepo.git')
+os.system('git remote set-url origin https://github.com/AnshDivya/himRepo.git')
 os.system('git config --global user.name "{}"'.format("hilnu"))
 os.system('git config --global user.email "{}"'.format("t-hilnu@expediagroup.com"))
 
